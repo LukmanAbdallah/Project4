@@ -4,7 +4,7 @@ node {
 
     stage('1. Git Build') {
         git branch: 'main',
-            url: '',
+            url: 'https://github.com/LukmanAbdallah/Project3.git',
             credentialsId: ''
     }
 
@@ -39,3 +39,4 @@ node {
         war: WAR_FILE
     }
 }
+
